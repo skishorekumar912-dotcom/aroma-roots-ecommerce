@@ -1,0 +1,1 @@
+export default function WhatsAppButton(){return <a href="https://wa.me/910000000000" aria-label="Chat on WhatsApp" className="fixed bottom-5 right-5 z-20 rounded-full bg-[#25d366] px-4 py-3 text-white shadow-lg">◉ WhatsApp</a>}

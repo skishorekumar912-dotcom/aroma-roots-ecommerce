@@ -1,0 +1,3 @@
+import type { Metadata } from "next"; import "./globals.css"; import Header from "@/components/Header"; import Footer from "@/components/Footer"; import WhatsAppButton from "@/components/WhatsAppButton"; import { StoreProvider } from "@/context/StoreContext";
+export const metadata:Metadata={title:"Aroma Roots | Authentic Indian Spices",description:"Authentic Indian masalas, spice blends, podis and recipe kits for effortless everyday cooking.",openGraph:{title:"Aroma Roots | Authentic Indian Spices",description:"Authentic spices. Effortless cooking.",type:"website"}};
+export default function Layout({children}:{children:React.ReactNode}){return <StoreProvider><Header/><main>{children}</main><Footer/><WhatsAppButton/></StoreProvider>}
